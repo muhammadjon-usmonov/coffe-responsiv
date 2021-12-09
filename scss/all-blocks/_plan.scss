@@ -1,0 +1,129 @@
+.plan-section .container{
+    margin-bottom: 160px;
+    margin-top: 100px;
+    
+}
+
+.plan__box{
+    max-width: 1330px;
+    width: 100%;
+    background-image: url('..//image/jpg/creatplanx.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:left;
+    color: #fff;
+}
+
+.plan__title{
+    max-width: 485px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    white-space: nowrap;
+    margin-bottom: 32px;
+    padding-top: 134px;
+    padding-left: 85px;
+    
+}
+
+.plan__text{
+    max-width: 405px;
+    width: 100%;
+    padding-bottom: 134px;
+    padding-left: 85px;
+    padding-right: 0px;
+}
+
+@media only screen and(max-width:768px){
+    .plan-section .container{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .plan__box{
+        background-image: url('..//image/jpg/subscrimecoffe.png');
+        background-size: contain;
+    }
+
+    .plan__title{
+        max-width: 398px;
+        width: 100%;
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+
+    .plan__text{
+        max-width: 398px;
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and(max-width:530px){
+    .plan__box{
+        padding-left: 0;
+    }
+
+    .plan__title{
+        padding-left: 10px;
+    }
+
+    .plan__text{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and(max-width:425px){
+    .plan-section .container{
+        text-align: center;
+    }
+
+    .plan__box{
+        max-width: 100%;
+        background-image: url('..//image/jpg/subscribecoffe.jpg');
+        background-size: contain;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .plan__title{
+        max-width: 279px;
+        width: 100%;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
+    .plan__text{
+        max-width: 279px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and(max-width:315px){
+
+    .plan__box{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .plan__title{
+        font-size: 26px;
+        margin-right: 0;
+    }
+
+    .plan__text{
+        font-size: 14px;
+    }
+}

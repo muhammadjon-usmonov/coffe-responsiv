@@ -1,0 +1,117 @@
+.commitment-section .container{
+    padding-top: 150px;
+    display: flex;
+    padding-left: 90px;
+    margin-bottom: 260px;
+}
+
+.commit{
+    max-width: 540px;
+    width: 100%;
+    padding-left: 100px;
+    
+}
+
+.commitment__title{
+    width: 100%;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    // padding-top: 160px;
+    margin-top: 0;
+
+}
+
+.commitment__paragraph{
+    line-height: 26px;  
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+@media only screen and(max-width:1100px){
+    .commit{
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .commitment-section .container{
+        padding-left: 0;
+        padding-left: 20px;
+    }
+
+    .commit{
+        max-width: 400px;
+        width: 100%;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    
+    .commitment__title{
+        max-width: 286px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 48px;
+        margin: 0;
+        margin-bottom: 0;
+        margin-bottom: 30px;
+    }
+
+    .commitment__paragraph{
+        margin-top: 0;
+        max-width: 400px;
+        width: 100%;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .commitment-section .container{
+        display: block;
+    }
+
+    .commit-image{
+        max-width: 650px;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+   
+
+    .commit{
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        text-align: center;
+        margin-top: 120px;
+        margin: 0 auto;
+    }
+
+    .commitment__title{
+        margin: 0 auto;
+    }
+
+    .commitment__paragraph{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and(max-width:400px){
+    .commitment-section .container{
+        padding-left: 0;
+    }
+    .commit-image{
+        margin: 0 auto;
+    }
+
+    .commitment__paragraph{
+        padding-left: 20px;
+    }
+}

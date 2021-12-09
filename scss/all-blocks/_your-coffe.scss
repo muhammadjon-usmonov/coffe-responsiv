@@ -1,0 +1,253 @@
+.your-coffe .container{
+    display: flex;
+}
+
+.your-coffe__left{
+    margin-left: 100px;
+}
+
+.your-coffe__list{
+    max-width: 255px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.your-coffe__list__item{
+    padding-bottom: 24px;
+    mix-blend-mode: normal;
+    text-align: left;
+    border-bottom: 1px solid #dddbdb;
+
+    
+    &+&{
+        margin-top: 26px;
+    }
+
+    &:last-child{
+        border-bottom: none;
+    }
+}
+
+.your-coffe__link{
+    margin-right: 20px;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    opacity: 0.4;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+   
+}
+
+.your-coffe__number{
+    margin-right: 20px;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+
+    &-st{
+        color: #0E8784;
+    }
+    &:active{
+        color: #15191f;
+      }
+}
+
+.your-coffe__name{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+// your-coffe-right
+
+.your-coffe__right{
+    text-align: left;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.coffe__right__list{
+    max-width: 730px;
+    width: 100%;
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 88px;
+}
+
+.coffe__right__title{
+    margin: 0;
+    padding: 0;
+    padding-left: 145px;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 55px;
+    color: #83888F;
+}
+
+
+.right__box__item{
+    position: relative;
+    max-width: 230px;
+    width: 100%;
+    text-align: left;
+    background: #F4F1EB;
+    border-radius: 8px;
+    &+&{
+        margin-left: 23px;
+    }
+
+    &:hover{
+        background-color: #FDD6BA;
+        color: #333D4B;
+    }
+}
+
+.checking-item{
+    max-height: 230px;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+
+
+.input:checked + .checking-item{
+    background-color: #0E8784;
+    color: #FEFCF7;
+}
+
+.right__item__title{
+    margin: 0;
+    padding-top: 32px;
+    padding-left: 28px;
+    margin-bottom: 25px;
+}
+
+.right__item__text{
+    max-width: 200px;
+    width: 100%;
+    margin: 0;
+    padding-left: 28px;
+    padding-bottom: 70px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+ @media only screen and (max-width:1240px){
+     .your-coffe__left{
+         margin-left: 0;
+     }
+
+     .coffe__right__list{
+         margin-left: 60px;
+     }
+ }
+
+ @media only screen and (max-width:1050px){
+    .coffe__right__title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .your-coffe__list{
+        width: 100%;
+        display: none;
+    }
+
+     .your-coffe .container{
+         display: flex;
+         flex-direction: column;
+     }
+
+     .coffe__right__list{
+         margin-left: 0;
+     }
+ }
+
+ @media only screen and (max-width:600px){
+    .right__box__item{
+        padding-left: 0;
+        &+&{
+            margin-left: 10px;
+        }
+    }
+ }
+
+
+ @media only screen and (max-width:768px){
+
+    .your-coffe .container{
+        margin-bottom: 144px;
+    }
+     .coffe__right__list{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin: 0 auto;
+     }
+
+     .right__box__item{
+         max-width: 328px;
+         width: 100%;
+         &+&{
+             margin: 0;
+             margin-top: 16px;
+        }
+     }
+
+     .coffe__right__title{
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 18px;
+        margin-top: 110px;
+    }
+
+     .right__item__title{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 8px;
+     
+     }
+
+     .right__item__text{
+         max-width: 278px;
+         width: 100%;
+         margin: 0;
+         padding-bottom: 24px;
+     }
+ }
+
+ @media only screen and (max-width:380px){
+     .your-coffe__right{
+         text-align: left;
+     }
+
+     .coffe__right__title{
+         text-align: left;
+     }
+ }

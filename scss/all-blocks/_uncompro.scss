@@ -1,0 +1,93 @@
+.uncompro-section .container{
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    background-color: hsl(213, 17%, 21%);
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+
+
+.uncompro{
+    max-width: 614px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 85px;
+    padding-bottom: 176px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.uncompro-image{
+    position: absolute;
+    top: -20%;
+    right: 40px;
+}
+
+.uncompro__title{
+    max-width: 540px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces','Arail',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.uncompro__paragraph{
+    line-height: 26px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+// @media only screen and (max-width:1080px){
+//     .uncompro-image{
+     
+//     }
+    
+// }
+
+@media only screen and(max-width:990px){
+    .uncompro{
+        padding-left: 0;
+    }
+    .uncompro-image{
+        top: -200px;
+        left: 0;
+    }
+
+    .uncompro__title{
+        padding-top: 200px;
+        text-align: center;
+    }
+    .uncompro__paragraph{
+        padding-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+
+@media only screen and(max-width:768px){
+    .uncompro-image{
+        max-width: 470px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and(max-width:425px){
+    .uncompro{
+        padding-top: 0;
+    }
+
+    .uncompro__title{
+       font-size: 27px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .uncompro-image{
+        top: -80px;
+    }
+}

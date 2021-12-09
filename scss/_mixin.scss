@@ -1,0 +1,20 @@
+@mixin buttoon{
+        padding: 15px 31px;     
+        background: #0E8784;
+        border-radius: 6px;
+        color: #fff;
+        font-family: 'Fraunces','Arial',sans-serif;    
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+    
+        &:active{
+        background-color: #66D2CF;
+        }
+}
+
+@mixin list__item{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

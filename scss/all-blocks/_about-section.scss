@@ -1,0 +1,78 @@
+.hero{
+    padding-top: 113px;
+    padding-right: 233px;
+    padding-bottom: 118px;
+    padding-left:85px;
+    text-align: left;
+    color: #fff;
+    background-image: url('..//image/jpg/about-hero-coffe.jpg');
+    background-size: 1280px 450px;
+    background-repeat: no-repeat;
+    background-position: left 0 center;
+    padding-bottom: 175px;
+}
+
+.hero__title{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    }
+
+.hero__paragraph{
+    max-width: 445px;
+    width: 100%;
+    color: #FEFCF7;
+    font-size:16px;
+    line-height: 26px;
+}
+
+@media only screen and(max-width:1000px){
+    .hero{
+        padding: 0;
+        padding-top: 110px;
+        padding-left: 58px;
+        padding-right: 58px;
+        padding-bottom: 120px;
+    }
+}
+
+@media only screen and(max-width:768px){
+    .hero__title{
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero__paragraph{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 24px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+}
+
+@media only screen and(max-width:565px){
+    .hero{
+        padding: 0;
+        padding-top: 111px;
+        padding-bottom: 87px;
+        padding-left: 24px;
+        margin-right: 24px;
+        margin: 0;
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .hero__paragraph{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
